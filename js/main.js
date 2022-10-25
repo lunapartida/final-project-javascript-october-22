@@ -1,3 +1,8 @@
+const img = document.createElement("img");
+img.src = "../image/header.gif";
+const src = document.getElementById("header");
+src.appendChild(img);
+
 image_array = [
   "../image/100-Grand-Bar-2.jpg",
   "../image/3musssk.jpg",
