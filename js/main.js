@@ -1,3 +1,22 @@
+//attempting to have random picture every refresh for first picture
+
+// firstPicture = [
+//   "../image/hallobackground.jpeg",
+//   "../image/halloskeleton.webp",
+//   "../image/halloween-dark-night-scenery-background-concept-free-vector.jpeg",
+//   "../image/halloween-night.jpeg",
+//   "../image/halloween2.webp",
+//   "../image/halloweenbackground.jpeg",
+// ];
+
+// function main_random_image() {
+//   random_index = Math.floor(Math.random() * firstPicture.length);
+//   selected_image = firstPicture[random_index];
+//   document.getElementById("src").src = `../images/${selected_image}`;
+// }
+
+
+//random candy pictures for container 
 image_array = [
   "../image/100-Grand-Bar-2.jpg",
   "../image/3musssk.jpg",
@@ -63,6 +82,7 @@ image_array = [
   "../image/yorkpepatty.jpg",
 ];
 
+//candy randomized code
 function get_random_image() {
   random_index = Math.floor(Math.random() * image_array.length);
   selected_image = image_array[random_index];
@@ -70,7 +90,7 @@ function get_random_image() {
 }
 
 
-
+//audio for button click
 const audioArr = [
   new Audio('../sounds/blood_guts_spill.wav'),
   new Audio('../sounds/breathe_ghost_eerie.wav'),
@@ -95,7 +115,7 @@ const audioArr = [
   new Audio('../sounds/zombie-monster-growl.wav'),
 ];
 
-
+//randomized button sound click
 function playRandomAudio(){
   //Get a random index of the sound to be played
   const randomAudioIndex = Math.floor(Math.random() * (audioArr.length+1));
