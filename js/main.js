@@ -68,3 +68,12 @@ function get_random_image() {
   selected_image = image_array[random_index];
   document.getElementById("image_shower").src = `../images/${selected_image}`;
 }
+
+const audio = new Audio("../image/creepy2.wav");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
