@@ -69,7 +69,7 @@ function get_random_image() {
   document.getElementById("image_shower").src = `../images/${selected_image}`;
 }
 
-const audio = new Audio("../image/creepy2.wav");
+const audio = new Audio("../sounds/creepy-little-creature.wav");
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach(button => {
