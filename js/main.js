@@ -1,5 +1,5 @@
 const img = document.createElement("img");
-img.src = "../image/header.gif";
+img.src = "./image/header.gif";
 const src = document.getElementById("header");
 src.appendChild(img);
 
