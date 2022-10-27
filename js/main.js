@@ -18,7 +18,6 @@
 //random candy pictures for container
 image_array = [
   "../image/airheads-two.avif",
-  "../image",
   "../image/almond-joy-two.jpg",
   "../image/baby-bottle-pop.jpg",
   "../image/baby-ruth.jpg",
@@ -32,7 +31,6 @@ image_array = [
   "../image/dove.jpg",
   "../image/Dubble_Bubble.jpg",
   "../image/dumdums.jpg",
-  "../image/five-gum.jpg",
   "../image/fundip.jpg",
   "../image/gobstopper-candy.jpg",
   "../image/gummybears.jpg",
@@ -99,19 +97,15 @@ const audioArr = [
   new Audio("../sounds/deep_doom.wav"),
   new Audio("../sounds/digital_destruction.wav"),
   new Audio("../sounds/game-blood-pop-slide.wav"),
-  new Audio("../sounds/insects_spider.wav"),
   new Audio("../sounds/magic_element_death_a.wav"),
   new Audio("../sounds/metal_shing.wav"),
   new Audio("../sounds/monster_bat_scream.wav"),
   new Audio("../sounds/monster_ghost_death.wav"),
   new Audio("../sounds/monster_screech.wav"),
-  new Audio("../sounds/needle_drop.wav"),
   new Audio("../sounds/piano-hit.wav"),
   new Audio("../sounds/piano-string-two.wav"),
   new Audio("../sounds/production_element_glitch_distort.wav"),
   new Audio("../sounds/production_element_hit_distortion.wav"),
-  new Audio("../sounds/record_needle_lift.wav"),
-  new Audio("../sounds/slam.wav"),
   new Audio("../sounds/zombie-monster-growl.wav"),
 ];
 
