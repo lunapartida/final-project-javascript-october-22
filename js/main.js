@@ -18,8 +18,8 @@
 //random candy pictures for container
 image_array = [
   "../image/one-hund-gran-two.jpg",
-  "../image/three-musk-two.jpg",
-  "../image/airheads2.avif",
+  "../image",
+  "../image/airheads-two.avif",
   "../image/almond-joy-two.jpg",
   "../image/baby-bottle-pop.jpg",
   "../image/baby-ruth.jpg",
@@ -124,7 +124,7 @@ function playRandomAudio() {
 
 //single sound button click
 
-// const audio = new Audio("../sounds/zombie-monster-growl.wav");
+// const audio = new Audio("./sounds/zombie-monster-growl.wav");
 // const buttons = document.querySelectorAll("button");
 
 // buttons.forEach(button => {
