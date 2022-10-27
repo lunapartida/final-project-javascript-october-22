@@ -15,19 +15,18 @@
 //   document.getElementById("src").src = `../images/${selected_image}`;
 // }
 
-
-//random candy pictures for container 
+//random candy pictures for container
 image_array = [
-  "../image/100-Grand-Bar-2.jpg",
-  "../image/3musssk.jpg",
+  "../image/one-hund-gran-two.jpg",
+  "../image/three-musk-two.jpg",
   "../image/airheads2.avif",
-  "../image/almond joyy.jpg",
+  "../image/almond-joy-two.jpg",
   "../image/baby-bottle-pop.jpg",
   "../image/baby-ruth.jpg",
-  "../image/bazooka gum.jpg",
+  "../image/bazooka-gum.jpg",
   "../image/blow-pops.jpg",
   "../image/butterfinger.jpg",
-  "../image/candy corn 2.jpg",
+  "../image/candy-corn-two.jpg",
   "../image/candy-cigarettes.jpg",
   "../image/crunchbar.jpg",
   "../image/dots-candy.jpg",
@@ -89,43 +88,39 @@ function get_random_image() {
   document.getElementById("image_shower").src = `../images/${selected_image}`;
 }
 
-
 //audio for button click
 const audioArr = [
-  new Audio('../sounds/blood_guts_spill.wav'),
-  new Audio('../sounds/breathe_ghost_eerie.wav'),
-  new Audio('../sounds/creepy-little-creature.wav'),
-  new Audio('../sounds/creepy2.wav'),
-  new Audio('../sounds/deep_doom.wav'),
-  new Audio('../sounds/digital_destruction.wav'),
-  new Audio('../sounds/game-blood-pop-slide.wav'),
-  new Audio('../sounds/insects_spider.wav'),
-  new Audio('../sounds/magic_element_death_a.wav'),
-  new Audio('../sounds/metal_shing.wav'),
-  new Audio('../sounds/monster_bat_scream.wav'),
-  new Audio('../sounds/monster_ghost_death.wav'),
-  new Audio('../sounds/monster_screech.wav'),
-  new Audio('../sounds/needle_drop.wav'),
-  new Audio('../sounds/Piano Hit 5.wav'),
-  new Audio('../sounds/Piano String 2.wav'),
-  new Audio('../sounds/production_element_glitch_distort.wav'),
-  new Audio('../sounds/production_element_hit_distortion.wav'),
-  new Audio('../sounds/record_needle_lift.wav'),
-  new Audio('../sounds/Slam.wav'),
-  new Audio('../sounds/zombie-monster-growl.wav'),
+  new Audio("../sounds/blood_guts_spill.wav"),
+  new Audio("../sounds/breathe_ghost_eerie.wav"),
+  new Audio("../sounds/creepy-little-creature.wav"),
+  new Audio("../sounds/creepy-two.wav"),
+  new Audio("../sounds/deep_doom.wav"),
+  new Audio("../sounds/digital_destruction.wav"),
+  new Audio("../sounds/game-blood-pop-slide.wav"),
+  new Audio("../sounds/insects_spider.wav"),
+  new Audio("../sounds/magic_element_death_a.wav"),
+  new Audio("../sounds/metal_shing.wav"),
+  new Audio("../sounds/monster_bat_scream.wav"),
+  new Audio("../sounds/monster_ghost_death.wav"),
+  new Audio("../sounds/monster_screech.wav"),
+  new Audio("../sounds/needle_drop.wav"),
+  new Audio("../sounds/piano-hit.wav"),
+  new Audio("../sounds/piano-string-two.wav"),
+  new Audio("../sounds/production_element_glitch_distort.wav"),
+  new Audio("../sounds/production_element_hit_distortion.wav"),
+  new Audio("../sounds/record_needle_lift.wav"),
+  new Audio("../sounds/slam.wav"),
+  new Audio("../sounds/zombie-monster-growl.wav"),
 ];
 
 //randomized button sound click
-function playRandomAudio(){
+function playRandomAudio() {
   //Get a random index of the sound to be played
-  const randomAudioIndex = Math.floor(Math.random() * (audioArr.length+1));
+  const randomAudioIndex = Math.floor(Math.random() * (audioArr.length + 1));
 
   //Play the selected sound
   audioArr[randomAudioIndex].play();
 }
-
-
-
 
 //single sound button click
 
