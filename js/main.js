@@ -67,7 +67,7 @@ image_array = [
   "/image/Cricket-Lollipops.webp",
   "/image/Saltwater-Taffy.webp",
   "/image/Camel-Balls-Candy.webp",
-  "//image/Salsagheti.webp",
+  "/image/Salsagheti.webp",
   "/image/gummy_earwax.jpeg",
   "/image/gummy_magots.jpg",
 ];
