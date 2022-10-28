@@ -62,13 +62,14 @@ image_array = [
   "../image/warheads.jpg",
   "../image/whoppers.jpg",
   "../image/yorkpepatty.jpg",
+  "../image/",
 ];
 
 //candy randomized code
 function get_random_image() {
   random_index = Math.floor(Math.random() * image_array.length);
   selected_image = image_array[random_index];
-  document.getElementById("image_shower").src = `../images/${selected_image}`;
+  document.getElementById("image_shower").src = `../image/${selected_image}`;
 }
 
 //audio for button click
