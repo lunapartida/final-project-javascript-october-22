@@ -62,7 +62,14 @@ image_array = [
   "../image/warheads.jpg",
   "../image/whoppers.jpg",
   "../image/yorkpepatty.jpg",
-  "../image/",
+  "../image/Box-of-Boogers.webp",
+  "../image/Brachs-Turkey-Dinner-Candy-Corn.webp",
+  "../image/Cricket-Lollipops.webp",
+  "../image/Saltwater-Taffy.webp",
+  "../image/Camel-Balls-Candy.webp",
+  "..//image/Salsagheti.webp",
+  "../image/gummy_earwax.jpeg",
+  "../image/gummy_magots.jpg",
 ];
 
 //candy randomized code
