@@ -1,20 +1,3 @@
-//attempting to have random picture every refresh for first picture
-
-// firstPicture = [
-//   "../image/hallobackground.jpeg",
-//   "../image/halloskeleton.webp",
-//   "../image/halloween-dark-night-scenery-background-concept-free-vector.jpeg",
-//   "../image/halloween-night.jpeg",
-//   "../image/halloween2.webp",
-//   "../image/halloweenbackground.jpeg",
-// ];
-
-// function main_random_image() {
-//   random_index = Math.floor(Math.random() * firstPicture.length);
-//   selected_image = firstPicture[random_index];
-//   document.getElementById("src").src = `../images/${selected_image}`;
-// }
-
 //random candy pictures for container
 image_array = [
   "../image/airheads-two.avif",
